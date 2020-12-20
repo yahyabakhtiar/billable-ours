@@ -9,7 +9,8 @@ require_once 'simpletest/autorun.php';
 class AllTests extends TestSuite {
     function AllTests() {
         $this->TestSuite('Run All Billable Our$ tests');
-        $this->addFile('login_form_test.php');
+        $this->addFile('hours_test.php');
+        
     }
 }
 ?>
